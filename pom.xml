@@ -198,5 +198,16 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		 <snapshotRepository>
+		    <id>nexusRepo</id>
+		    <url>http://54.80.29.74:8081/repository/snapshot-version/</url>
+		 </snapshotRepository>
+		
+		<repository>
+		    <id>nexusRepo</id>
+		    <url>http://54.80.29.74:8081/repository/release-version/</url>
+		</repository>
+  	</distributionManagement>
 	<name>simple-web-app</name>
 </project>
